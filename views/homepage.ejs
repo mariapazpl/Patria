@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patria</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+    </head>
+
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 99;
+
+        }
+
+        .logo {
+            font-size: 2em;
+            color: #d1d8bd;
+            user-select: none;
+        }
+
+        .navigation a {
+            position: relative;
+            font-size: 1.1em;
+            color: #d1d8bd;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+        }
+
+        .navigation a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            left: 0;
+            bottom: -6px;
+            background: #d1d8bd;
+            border-radius: 5px;
+            transform-origin: right;
+            transform: scaleX(0);
+            transition: transform .5s;
+        }
+
+        .navigation a:hover:after {
+            transform-origin: left;
+            transform: scaleX(1);
+        }
+
+
+        body, html {
+            height: 100%;
+        }
+
+        /* The hero image */
+        .hero-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/food-map.png");
+
+        /* Set a specific height */
+        height: 70%;
+
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+
+        /* Place text in the middle of the image */
+        .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #d1d8bd;
+        }
+
+        .hero-image .btnRegister-popup {
+            left: 50%;
+            width: 180px;
+            height: 50px;
+            background: transparent;
+            border: 2px solid #8d9b6a;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.1em;
+            color: #d1d8bd;
+            font-weight: 500;
+            margin-left: 0;
+            transition: .5s;
+        }
+        .hero-image .btnRegister-popup:hover {
+            background: #8d9b6a;
+            color: #162938;
+        }
+
+
+
+
+
+        .welcome-section {
+            padding: 60px 0;
+            background-color: #efefe9;
+        }
+
+        </style>
+
+
+        <header>
+            <h2 class="logo">PATRIA</h2>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="/about">About</a>
+                <a href="/blog">Blog</a> <!--Add later-->
+                <a href="/Marketplace">Marketplace</a> <!--Add later-->
+                <a href="/logout">Logout</a>
+            </nav>
+        </header>
+
+        
+        
+
+        <!-- Welcome Section -->
+        <div class="hero-image">
+            <div class="hero-text">
+            <h1>Hello <%= name %>! </h1>
+            </div>
+        </div>
+
+    
+        <section class="welcome-section text-center">
+            <div class="container">
+                <p>Explore the world of delicious home-cooked culinary masterpieces. Delve into the nostalgic flavors of your childhood favorites and the timeless recipes passed down by your grandparents. Connect with fellow food enthusiasts, exchange culinary tales, and revel in the magnificant world of gastronomy. </p>
+                
+            </div>
+        </section>       
+
+        <script>
+            
+            const form = document.querySelector('submit', (e) => {
+                e.preventDefault();
+                const fd = new FormData(form);
+                const obj = Object.fromEntries(fd)
+                console.log(obj);
+            })
+            
+        </script>
+
+        <!-- Bootstrap JS and Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
