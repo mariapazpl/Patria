@@ -2,7 +2,7 @@
 
 Patria - A web platform dedicated to food enthusiasts, offering a unique blend of a blog section for sharing 
 traditional recipes and a marketplace for buying and selling home-cooked meals. The website contains a fully functional login, 
-register and logout system. 
+register and logout system. A demo video is attached.
 
 ## Technologies Used
 
