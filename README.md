@@ -1,10 +1,11 @@
 # Patria-Website
 
 Patria - A web platform dedicated to food enthusiasts, offering a unique blend of a blog section for sharing 
-traditional recipes and a marketplace for buying and selling home-cooked meals. UX/UI design principles were used to create an attractive and functional interface. There is also a register/login/authentication system. A demo video is attached!
+traditional recipes and a marketplace for buying and selling home-cooked meals. There is also a fully functional register/login/authentication system. A demo video is attached!
 
 ## UX/UI Design Principles Used
-- User-centered design, visual and typographic hierarchy, user control, consistency with other similar websites, usability
+- User-centered design, visual and typographic hierarchy, user control, consistency, usability
+- Please see UX Iterations.xlsx for record log of the iterative design process
 
 ## Technologies Used
 
