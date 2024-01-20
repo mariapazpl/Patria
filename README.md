@@ -5,7 +5,7 @@ traditional recipes and a marketplace for buying and selling home-cooked meals. 
 
 ## UX/UI Design Principles Used
 - User-centered design, visual and typographic hierarchy, user control, consistency, usability
-- Please see UX Iterations.xlsx for record log of the iterative design process
+- Please see UX_Iterations.md for record log of the iterative design process
 
 ## Technologies Used
 
