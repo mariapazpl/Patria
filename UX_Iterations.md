@@ -2,7 +2,7 @@
 	
 I completed the first prototype in Jan 2024. I gathered 3 friends and had them use the website. They provided the feedback below and I made changes accordingly. 	
 	
-## UX/UI Issue Identified &#8594 Changes Made
+## UX/UI Issue Identified &#8594; Changes Made
 - Colour scheme not matching -> Settled on an earthy colour theme of green/brown/grey to be visually appealing
 - Font size of title/text not in keeping with typographic hierarchy (important info was too small) -> Changed font size and scale to help guide the reader to the more important information
 - Consistency with other similar websites -> I researched other food websites and made my layout somewhat similar, so that users will feel more comfortable immediately. The comments section I modeled after reddit/facebook, again for the same reason of consistency
