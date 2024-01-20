@@ -1,7 +1,7 @@
 # Patria-Website
 
 Patria - A web platform dedicated to food enthusiasts, offering a unique blend of a blog section for sharing 
-traditional recipes and a marketplace for buying and selling home-cooked meals. There is a fully functional register/login/authentication system. I am working on deploying it online, for now, please run locally or watch the attached demo video.
+traditional recipes and a marketplace for buying and selling home-cooked meals. There is a fully functional register/login/authentication system. I am still working on deploying it - for now please run locally or watch the demo video.
 
 ## UX/UI Design Principles Used
 - User-centered design, visual and typographic hierarchy, user control, consistency, usability
@@ -43,10 +43,10 @@ To run the project locally, follow these steps:
 
 ## Development Roadmap
 
-1. Refactor posts and comments into server.js to better simulate stateful behaviour
-2. Store user and application data in a relational database as opposed to in memory on the API server 
-3. New feature to send email notifications for new posts/comments
-4. Conduct formal usability studies to further improve the user experience and interface
+1. Deploy website on AWS
+2. Refactor posts and comments into server.js to better simulate stateful behaviour
+3. Store user and application data in a relational database as opposed to in memory on the API server
+5. Conduct formal usability studies to further improve the user experience and interface
 
 ## Feedback and Contributions
 
