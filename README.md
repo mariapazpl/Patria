@@ -1,7 +1,7 @@
 # [Patria Website](http://ubuntu@ec2-3-21-158-206.us-east-2.compute.amazonaws.com:5005/)
 
 Patria - A web platform dedicated to food enthusiasts offering a register/login/authentication system, a blog section for sharing 
-traditional recipes and a marketplace for buying and selling home-cooked meals. Please use the link in the title to access the website. A [demo video](https://github.com/mariapazpl/Patria-Website/blob/main/demo-video.mp4) is also attached as a MP4 file.
+traditional recipes and a marketplace for buying and selling home-cooked meals. Please use the link in the title to access the website.
 
 ## UX/UI Design Principles Used
 - User-centered design, visual and typographic hierarchy, user control, consistency, usability
