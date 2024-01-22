@@ -1,4 +1,4 @@
-# [Patria-Website](http://ubuntu@ec2-3-21-158-206.us-east-2.compute.amazonaws.com:5005/)
+# [Patria Website](http://ubuntu@ec2-3-21-158-206.us-east-2.compute.amazonaws.com:5005/)
 
 Patria - A web platform dedicated to food enthusiasts offering a register/login/authentication system, a blog section for sharing 
 traditional recipes and a marketplace for buying and selling home-cooked meals. Please use the link in the title to access the website. A demo video is also attached as a MP4 file.
