@@ -1,7 +1,7 @@
-# Patria-Website
+# [Patria-Website](http://ubuntu@ec2-3-21-158-206.us-east-2.compute.amazonaws.com:5005/)
 
-Patria - A web platform dedicated to food enthusiasts, offering a unique blend of a blog section for sharing 
-traditional recipes and a marketplace for buying and selling home-cooked meals. There is a fully functional register/login/authentication system. I am still working on deploying it - for now please run locally or watch the demo video.
+Patria - A web platform dedicated to food enthusiasts offering a register/login/authentication system, a blog section for sharing 
+traditional recipes and a marketplace for buying and selling home-cooked meals.
 
 ## UX/UI Design Principles Used
 - User-centered design, visual and typographic hierarchy, user control, consistency, usability
@@ -18,6 +18,7 @@ traditional recipes and a marketplace for buying and selling home-cooked meals. 
   - Node.js for server-side JavaScript
   - Express.js framework as our application server
   - Passport.js to help manage the logged in state of users
+  - Hosted on Amazon EC2
 
 In this implementation, we use in-memory data structures to simulate an underlying database. In future iterations we will integrate a database component to allow for persistent storage.
 
@@ -40,13 +41,11 @@ To run the project locally, follow these steps:
 4. Run the application with `npm run devStart`.
 5. Access the website at `http://localhost:5005`.
 
-
 ## Development Roadmap
 
-1. Deploy website on AWS
-2. Refactor posts and comments into server.js to better simulate stateful behaviour
-3. Store user and application data in a relational database as opposed to in memory on the API server
-5. Conduct formal usability studies to further improve the user experience and interface
+1. Refactor posts and comments into server.js to better simulate stateful behaviour
+2. Store user and application data in a relational database as opposed to in memory on the API server
+3. Conduct formal usability studies to further improve the user experience and interface
 
 ## Feedback and Contributions
 
