@@ -1,7 +1,7 @@
 # [Patria-Website](http://ubuntu@ec2-3-21-158-206.us-east-2.compute.amazonaws.com:5005/)
 
 Patria - A web platform dedicated to food enthusiasts offering a register/login/authentication system, a blog section for sharing 
-traditional recipes and a marketplace for buying and selling home-cooked meals.
+traditional recipes and a marketplace for buying and selling home-cooked meals. Please use the link in the title to access the website. A demo video is also attached as a MP4 file.
 
 ## UX/UI Design Principles Used
 - User-centered design, visual and typographic hierarchy, user control, consistency, usability
@@ -18,7 +18,7 @@ traditional recipes and a marketplace for buying and selling home-cooked meals.
   - Node.js for server-side JavaScript
   - Express.js framework as our application server
   - Passport.js to help manage the logged in state of users
-  - Hosted on Amazon EC2
+  - Hosted on an Amazon EC2 Ubuntu instance
 
 In this implementation, we use in-memory data structures to simulate an underlying database. In future iterations we will integrate a database component to allow for persistent storage.
 
