@@ -126,5 +126,22 @@ function checkNotAuthenticated(req, res, next) {
     next()
 }
 
+app.use((req, res, next) => {
+    if(req.protocol === 'http') {
+        const httpsUrl = `https://${req.headers.host}${req.url}`;
+        return res.redirect(301, httpsUrl);
+    }
+    next();
+});
 
-app.listen(8080)
+
+const privateKey  = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparades.ca/fullchain.pem', 'utf8');
+const credentials = {key: privateKey, cert: certificate};
+const fs = require('fs');
+const http = require('http');
+const https = require('https');
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer(credentials, app);
+httpServer.listen(8080);
+httpsServer.listen(8443);
