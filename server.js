@@ -134,11 +134,11 @@ app.use((req, res, next) => {
     next();
 });
 
-
-const privateKey  = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparades.ca/fullchain.pem', 'utf8');
-const credentials = {key: privateKey, cert: certificate};
 const fs = require('fs');
+const privateKey  = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/fullchain.pem', 'utf8');
+const credentials = {key: privateKey, cert: certificate};
+
 const http = require('http');
 const https = require('https');
 const httpServer = http.createServer(app);
