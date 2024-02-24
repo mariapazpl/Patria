@@ -139,6 +139,7 @@ const privateKey  = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.c
 const certificate = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/fullchain.pem', 'utf8');
 const credentials = {key: privateKey, cert: certificate};
 
+//if statement if file exists for all http
 const http = require('http');
 const https = require('https');
 const httpServer = http.createServer(app);
