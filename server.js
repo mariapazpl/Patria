@@ -25,7 +25,7 @@ app.set('view-engine', 'ejs')
 app.use(express.urlencoded({ extended: false }))
 app.use(flash())
 app.use(session({
-  secret: process.env.SESSION_SECRET,
+  secret: process.env.SESSION_SECRET || 'blah',
   resave: false,
   saveUninitialized: false
 }))
@@ -135,14 +135,14 @@ app.use((req, res, next) => {
 });
 
 const fs = require('fs');
-const privateKey  = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/fullchain.pem', 'utf8');
-const credentials = {key: privateKey, cert: certificate};
+// const privateKey  = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/privkey.pem', 'utf8');
+// const certificate = fs.readFileSync('/etc/letsencrypt/live/patria.mariaparedes.ca/fullchain.pem', 'utf8');
+// const credentials = {key: privateKey, cert: certificate};
 
 //if statement if file exists for all http
 const http = require('http');
 const https = require('https');
 const httpServer = http.createServer(app);
-const httpsServer = https.createServer(credentials, app);
+// const httpsServer = https.createServer(credentials, app);
 httpServer.listen(8080);
-httpsServer.listen(8443);
+// httpsServer.listen(8443);

@@ -90,10 +90,12 @@ body{
     margin-bottom: 35px;
 }
 
-.container{
+.about-container{
     width: 90%;
     margin: 0 auto;
     padding: 10px 20px;
+    background-color: #d1d8bd;
+
 }
 
 .about{
@@ -138,7 +140,7 @@ body{
         font-size: 17px;
         margin-bottom: 0px;
     }
-    .container{
+    .about-container{
         padding: 0px;
     }
     .about{
