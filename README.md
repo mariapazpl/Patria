@@ -53,4 +53,11 @@ As Patria is still in its early stages, your feedback and contributions are high
 appreciated. Feel free to reach out to María Paredes at Maria.Paredes@torontomu.ca with 
 any suggestions or bug reports.
 
+## Demo video
+
+
+https://github.com/mariapazpl/Patria/assets/153972139/97b5b352-806c-46e4-9a42-499e8e4b08ff
+
+
+
 Thank you for your interest in Patria! Buen Provecho!
