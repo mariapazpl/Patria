@@ -1,7 +1,7 @@
 # [Patria Website](https://patria.mariaparedes.ca/)
 
 Patria - A web platform dedicated to food enthusiasts offering a register/login/authentication system, a blog section for sharing 
-traditional recipes and a marketplace for buying and selling home-cooked meals. Please access the website here: (https://patria.mariaparedes.ca)
+traditional recipes and a marketplace for buying and selling home-cooked meals. Please access the website here: https://patria.mariaparedes.ca
 
 ## UX/UI Design Principles Used
 - User-centered design, visual and typographic hierarchy, user control, consistency, usability
